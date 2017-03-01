@@ -3,8 +3,8 @@ body {
   display:flex;
   flex-direction: column;
   height:auto;
-  width:100vw;
   min-width: 320px;
+  width:100vw;
 }
 
 /*Side Navigation Bar Items*/
@@ -18,12 +18,12 @@ body {
 
 .identity-container {
   align-items: center;
+  color:#bac0c4;
   display:flex;
   flex-direction: column;
   height:50%;
   justify-content: center;
   width:100%;
-  color:#bac0c4;
 }
 
 .identity-container:hover {
@@ -31,13 +31,9 @@ body {
 }
 
 .identity-img {
-  /*background-image: url('images/headshot.jpg');*/
-  background-size: cover;
+  border-radius: 50%;
   height:80px;
   width: 80px;
-  border-radius: 50%;
-  /*background-position-x: -7px;*/
-
 }
 
 .side-nav-main-container {
@@ -49,9 +45,9 @@ body {
 }
 
 .side-nav-main-img-container {
+  align-items: center;
   display:flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
@@ -61,89 +57,37 @@ body {
   width:40px;
 }
 
-.side-nav-main-img-home {
-  /*background: url('images/home.png');*/
-  background-size: cover;
-}
-
-.side-nav-main-img-jobs {
-  /*background-image: url('images/briefcase.png');*/
-  background-size: cover;
-}
-
-.side-nav-main-img-resume {
-  /*background-image: url('images/profile.png');*/
-  background-size: cover;
-}
-
-.side-nav-main-img-tasks {
-  /*background-image: url('images/checklist.png');*/
-  background-size: cover;
-}
-
-.side-nav-main-img-calendar {
-  /*background-image: url('images/calendar.png');*/
-  background-size: cover;
-}
-
 .main-buttons,
 .admin-buttons {
-  margin:0px;
   color: #FFF;
   font-size: 70%;
+  margin:0px;
 }
 
 .side-nav-admin-container {
-  display:flex;
-  justify-content: center;
   align-items: center;
+  display:flex;
   height:30%;
+  justify-content: center;
   width:50%;
 }
 
-.side-nav-admin-img-users {
-  /*background-image: url('images/home.png');*/
-  background-size: cover;
-}
-
-.side-nav-admin-img-locations {
-  /*background-image: url('images/briefcase.png');*/
-  background-size: cover;
-}
-
-.side-nav-admin-img-workflows {
-  /*background-image: url('images/profile.png');*/
-  background-size: cover;
-}
-
-.side-nav-admin-img-job-boards {
-  /*background-image: url('images/checklist.png');*/
-  background-size: cover;
-}
-
-.side-nav-admin-img-social {
-  /*background-image: url('images/calendar.png');*/
-  background-size: cover;
-}
-
 .admin-buttons {
-  margin:0px;
-  color:#FFF;
   display:none;
 }
 
 .side-nav-categories-container {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
   height:30%;
+  justify-content: center;
   width:50%;
 }
 
 .category-buttons {
-  margin:0px;
   color:#FFF;
   display:none;
+  margin:0px;
 }
 
 .admin-hamburger-menu,
@@ -155,18 +99,18 @@ body {
 }
 
 .hamburger-container {
-  height:100%;
-  width:100%;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
   color:#FFF;
+  display:flex;
+  flex-direction: column;
+  height:100%;
+  justify-content: center;
+  width:100%;
 }
 
 .hamburger-title {
-  margin: 5px 0 0 0;
   font-size: 12px;
+  margin: 5px 0 0 0;
 }
 
 .full-scale-lable {
@@ -184,8 +128,8 @@ body {
 .search-container {
   display:flex;
   height:50px;
-  width:100%;
   justify-content: center;
+  width:100%;
 }
 
 .search-input {
@@ -193,11 +137,9 @@ body {
 }
 
 .input-user-icon {
-  /*background-image: url('images/user-grey.png');*/
-  background-size: cover;
+  display:none;
   height:50px;
   width:20%;
-  display:none;
 }
 
 .job-title-container {
@@ -208,10 +150,10 @@ body {
 }
 
 .random-button-container {
-  display: flex;
   align-items: center;
-  justify-content: space-around;
+  display: flex;
   height: 40%;
+  justify-content: space-around;
   width:100%;
 }
 
@@ -231,10 +173,10 @@ body {
 }
 
 .open-button {
-  border-radius: 30px;
-  width: 100px;
-  height: 50px;
   background-color: #FFF;
+  border-radius: 30px;
+  height: 50px;
+  width: 100px;
 }
 
 .open-button:hover {
@@ -257,44 +199,44 @@ body {
 }
 
 .tabs-container {
-  display:flex;
   align-items: center;
+  display:flex;
   flex-direction: column;
   width:100%;
 }
 
 .graphs-container {
+  align-items: center;
+  background: #EDF2F6;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #EDF2F6;
   height: 750px;
+  justify-content: center;
   width:100%;
 }
 
 .circle-graph-and-button-container {
-  width:55%;
   text-align: center;
+  width:55%;
 }
 
 .circle-graph-container {
-  width: 100%;
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   margin:0;
+  width: 100%;
 }
 
 .circle-graph {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  height: 100px;
-  width: 100px;
   border-radius: 50%;
+  display: flex;
+  height: 100px;
+  justify-content: center;
   margin: 10px;
+  width: 100px;
 }
 
 .circle-graph-one {
@@ -313,45 +255,45 @@ body {
 }
 
 .statistic {
-  line-height: 50px;
   background-color: #FFF;
-  border: 1px solid grey;
   border-radius: 30px;
+  border: 1px solid #EDF2F6;
+  line-height: 50px;
   padding:0 20px;
 }
 
 .job-description-container {
-  display: flex;
-  justify-content: center;
   background: #EDF2F6;
+  display: flex;
   height: auto;
+  justify-content: center;
   width:100%;
 }
 
 .job-description-box {
+  background: #FFF;
   height: auto;
   width: 95%;
-  background: white;
 }
 
 .job-description-heading-container {
   align-items: center;
-  display:flex;
   background: #5f686f;
-  justify-content: center;
   color:#FFF;
+  display:flex;
+  justify-content: center;
 }
 
 .job-description-button {
-  display:flex;
   align-items: center;
-  height:50%;
-  font-size: 25%;
-  margin-left: 29px;
-  color:#FFF;
   background-color:#838d95;
-  border: 2px solid transparent;
   border-radius: 3px;
+  border: 2px solid transparent;
+  color:#FFF;
+  display:flex;
+  font-size: 25%;
+  height:50%;
+  margin-left: 29px;
   padding: 2px 10px;
 }
 
@@ -360,66 +302,63 @@ body {
 }
 
 .job-description-edit {
-  background-size: cover;
   height:20px;
   width: 20px;
 }
 
 .description-container {
+  align-items: center;
+  border-bottom: 1px solid #EDF2F6;
   display:flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  border-bottom: 1px solid grey;
 }
 
 .hiring-lead-img {
-  background-image: url('images/tom-tizzy.jpg');
-  background-size: cover;
   border-radius: 50%;
   height:70px;
   width:70px;
 }
 
 .social-media-container {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   background: #EDF2F6;
+  display: flex;
+  flex-direction: column;
   height:auto;
   width:100%;
 }
 
 .social-link-container,
 .widget-resume-container {
+  background: transparent;
   display: flex;
   flex-direction: column;
   height:auto;
   width: 90%;
-  background: transparent;
 }
 
 .social-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   height: 50%;
+  justify-content: space-around;
   width: 100%;
 }
 
 .customer-service-heading-container {
+  color:#5f686f;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 60%;
-  width: 100%;
+  justify-content: center;
   text-align: center;
-  color:#5f686f;
+  width: 100%;
 }
 
 .location-container {
-  display: flex;
   align-self: center;
+  display: flex;
 }
 
 .location-pin {
@@ -428,8 +367,8 @@ body {
 }
 
 .location-txt {
-  margin:4px;
   line-height: 20px;
+  margin:4px;
 }
 
 .preview {
@@ -437,9 +376,9 @@ body {
 }
 
 .location-txt-dot {
+  font-size: 300%;
   position: relative;
   top: -13px;
-  font-size: 300%;
 }
 
 .graph-img-container {
@@ -453,27 +392,25 @@ body {
 }
 
 hr {
-  color: red;
-  width: 40%;
+  width: 45%;
 }
 
 .divider {
   align-items: center;
-  display: flex;
-  justify-content: center;
-  background: transparent;
-  height:50px;
-  width:100%;
   background: #EDF2F6;
+  background: transparent;
+  display: flex;
+  height:50px;
+  justify-content: center;
+  width:100%;
 }
 
 .divider-img {
-  background-image: url('images/arrow.png');
-  background-size: cover;
+  background-color: #FFF;
+  border-radius: 50%;
+  border: 1px solid #EDF2F6;
   height: 20px;
   width: 20px;
-  border-radius: 50%;
-  background-color: #FFF;
 }
 
 .divider-img:hover {
@@ -490,11 +427,11 @@ hr {
 }
 
 .social-btn {
+  border-radius: 2px;
   border:none;
+  color:#FFF;
   height: 60px;
   margin: 10px 0;
-  color:#FFF;
-  border-radius: 2px;
 }
 
 .facebook-btn {
@@ -519,8 +456,8 @@ hr {
 }
 
 .link-to-job-container h4{
-  display: flex;
   align-items: center;
+  display: flex;
   font-size: 80%;
 }
 
@@ -562,9 +499,20 @@ hr {
 /*Post largest cell phone Pre ipad*/
 @media screen and (min-width: 550px) {
 
+/*Main Container Items*/
   .tabs-container {
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  .tabs-container h6 {
+    border: 3px solid transparent;
+  }
+
+  .tabs-container h6:hover{
+    border-bottom: 3px solid #10A3FA;
+    line-height: 62px;
+    margin: 0;
   }
 
   .circle-graph-container {
@@ -572,9 +520,9 @@ hr {
   }
 
   .circle-graph-and-button-container {
+    align-items: center;
     display:flex;
     flex-direction: column;
-    align-items: center;
     width: 90%;
   }
 
@@ -604,9 +552,9 @@ hr {
   }
 
   .description-container {
+    border-bottom: 1px solid #5f686f;
     flex-direction: row;
     justify-content: flex-start;
-    border-bottom: 1px solid grey;
     padding: 5px;
   }
 
@@ -621,6 +569,7 @@ hr {
   .locations-container p {
     margin-left: 82px;
   }
+
   .employment-type-container p {
     margin-left: 35px;
   }
@@ -628,16 +577,20 @@ hr {
   .experience-container p {
     margin-left: 70px;
   }
+
   .status-container p {
     margin-left: 95px;
   }
+
   .description-container-unique p {
     margin-left: 65px;
     width:75%;
   }
+
   .hiring-lead-contatiner img{
     margin-left: 62px;
   }
+
   .hiring-lead-contatiner p{
     margin-left: 10px;
   }
@@ -645,37 +598,25 @@ hr {
   .salary-container p {
     margin-left: 40px;
   }
-
-  .tabs-container h6 {
-    border: 3px solid transparent;
-  }
-
-  .tabs-container h6:hover{
-    margin: 0;
-    line-height: 62px;
-    border-bottom: 3px solid #10A3FA;
-  }
-
 }
 
 /*Ipad*/
 @media screen and (min-width: 760px) {
 
+/*Main Container Items*/
   .job-title-container {
     flex-direction: row;
     height:200px;
   }
+
   .customer-service-heading-container {
     height:100%;
     width:50%;
   }
+
   .random-button-container {
     height:100%;
     width:50%;
-  }
-
-  figure {
-    margin: 0;
   }
 
   .circle-graph-container {
@@ -686,17 +627,6 @@ hr {
     height:130px;
     width:130px;
   }
-
-  .tabs-container h6 {
-    border: 3px solid transparent;
-  }
-
-  .tabs-container h6:hover{
-    margin: 0;
-    line-height: 62px;
-    border-bottom: 3px solid #10A3FA;
-  }
-
 }
 
 /*Full browser window & Ipad Pro*/
@@ -708,12 +638,16 @@ body {
 }
 
 /*Side Navigation Bar Items*/
+  .hamburger-container {
+    display:none;
+  }
+
   .side-nav-container {
+    align-items: flex-start;
     flex-direction: column;
     height:100%;
-    min-width:150px;
     max-width:150px;
-    align-items: flex-start;
+    min-width:150px;
   }
 
   .identity-container {
@@ -721,8 +655,8 @@ body {
   }
 
   .side-nav-main-container {
-    height: 20%;
     align-items: flex-start;
+    height: 20%;
   }
 
   .side-nav-main-img-container{
@@ -730,95 +664,29 @@ body {
   }
 
   .side-nav-admin-container {
-    width: 100%;
-    height:20%;
     align-items: flex-start;
+    height:20%;
     justify-content: flex-start;
+    width: 100%;
   }
 
   .side-nav-categories-container {
-    width: 100%;
-    height:20%;
     align-items: flex-start;
+    height:20%;
     justify-content: flex-start;
-  }
-
-/*Main Container Items*/
-  .job-description-container {
-    width: 70%;
-  }
-
-  .social-media-container {
-    width:30%;
-  }
-
-  .graphs-container {
-    flex-direction: row;
-    height:300px;
-    padding-top:40px;
-  }
-
-  .graph {
-    width: 300px;
-  }
-
-  .hamburger-container {
-    display:none;
-  }
-
-  .admin-buttons,
-  .category-buttons,
-  .side-nav-categories-img-container,
-  .side-nav-admin-img-container {
-    display: flex;
-    align-items: center;
-  }
-
-  .side-nav-main-container,
-  .side-nav-admin-container,
-  .side-nav-categories-container {
-    flex-direction: column;
-    justify-content: space-around;
-    align-items:flex-start;
-    height: 250px;
-    border-top: 1px solid #303744;
-    border-bottom: 1px solid #303744;
-  }
-
-  .side-nav-main-img-container,
-  .side-nav-categories-img-container,
-  .side-nav-admin-img-container {
-      margin: 10px 0 10px 10px;
-
-  }
-
-  .side-nav-main-img,
-  .side-nav-admin-img {
-    height:15px;
-    width:15px;
-  }
-
-  .main-buttons,
-  .admin-buttons {
-    margin-left: 15px;
-    color:#bac0c4;
-  }
-
-  .main-buttons:hover,
-  .admin-buttons:hover {
-    color:#FFF;
+    width: 100%;
   }
 
   .categories {
-  -webkit-appearance: none;
-  border: none;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
-	padding: 9px;
-	border-radius: 3px;
-	display: inline-block;
-	position: relative;
-  margin-right: 14px;
-}
+  	border-radius: 3px;
+  	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+  	display: inline-block;
+  	padding: 9px;
+  	position: relative;
+    -webkit-appearance: none;
+    border: none;
+    margin-right: 14px;
+  }
 
   .administrative {
     background-color: #f2e200;
@@ -836,82 +704,138 @@ body {
     background-color: #007530;
   }
 
+  lable {
+    align-items:center;
+    color: #bac0c4;
+    display: flex;
+    font-size: 70%;
+  }
 
+  .full-scale-lable {
+    display: block;
+    margin-top: 5px;
+  }
 
+/*Main Container Items*/
+  .job-description-container {
+    width: 70%;
+  }
 
-lable {
-  display: flex;
-  align-items:center;
-  font-size: 70%;
-  color: #bac0c4;
-}
+  .random-button-container {
+    justify-content:flex-end;
+  }
 
-.divider {
-  height: 90px;
-}
+  .random-button,
+  .open-button {
+    margin-right: 15px;
+  }
 
-.description-container-unique p {
-  width:70%;
-}
+  .social-media-container {
+    width:30%;
+  }
 
-.tabs-container h6 {
-  border: 3px solid transparent;
-}
+  .graphs-container {
+    flex-direction: row;
+    height:300px;
+    padding-top:40px;
+  }
 
-.tabs-container h6:hover{
-  margin: 0;
-  line-height: 62px;
-  border-bottom: 3px solid #10A3FA;
-}
+  .graph {
+    width: 300px;
+  }
 
-.social-btn {
-  display:flex;
-  align-items: flex-end;
-  margin-top:0;
-}
+  .admin-buttons,
+  .category-buttons,
+  .side-nav-categories-img-container,
+  .side-nav-admin-img-container {
+    align-items: center;
+    display: flex;
+  }
 
-.social-img {
-  margin: 0 15px 0 10px;
-}
+  .side-nav-main-container,
+  .side-nav-admin-container,
+  .side-nav-categories-container {
+    align-items:flex-start;
+    border-bottom: 1px solid #303744;
+    border-top: 1px solid #303744;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-around;
+  }
 
-.social-inputs {
-  width: 70%;
-}
+  .side-nav-main-img-container,
+  .side-nav-categories-img-container,
+  .side-nav-admin-img-container {
+    margin: 10px 0 10px 10px;
+  }
 
-.social-input-buttons {
-  width:30%;
-}
+  .side-nav-main-img,
+  .side-nav-admin-img {
+    height:15px;
+    width:15px;
+  }
 
-.circle-graph-and-button-container {
-  width: 60%;
-}
+  .main-buttons,
+  .admin-buttons {
+    color:#bac0c4;
+    margin-left: 15px;
+  }
 
-.search-container {
-  display:flex;
-  height:50px;
-  width:100%;
-  justify-content: center;
-}
+  .main-buttons:hover,
+  .admin-buttons:hover {
+    color:#FFF;
+  }
 
-.search-input {
-  width:100%;
-}
+  .divider {
+    height: 90px;
+  }
 
-.input-user-icon {
-  background-size: cover;
-  height:48px;
-  width:48px;
-  display:flex;
-  border: 1px solid grey;
-}
+  .description-container-unique p {
+    width:70%;
+  }
 
-.input-user-icon:hover {
-  border: 1px solid #10A3FA;
-}
+  .social-btn {
+    align-items: flex-end;
+    display:flex;
+    margin-top:0;
+  }
 
-.full-scale-lable {
-  display: block;
-  margin-top: 5px;
-}
+  .social-img {
+    margin: 0 15px 0 10px;
+  }
 
+  .social-inputs {
+    width: 70%;
+  }
+
+  .social-input-buttons {
+    width:30%;
+  }
+
+  .circle-graph-and-button-container {
+    width: 60%;
+  }
+
+  .search-container {
+    display:flex;
+    height:50px;
+    justify-content: center;
+    width:100%;
+  }
+
+  .search-input {
+    width:100%;
+  }
+
+  .input-user-icon {
+    background-size: cover;
+    border: 1px solid grey;
+    display:flex;
+    height:48px;
+    width:48px;
+  }
+
+  .input-user-icon:hover {
+    border: 1px solid #10A3FA;
+  }
 }
