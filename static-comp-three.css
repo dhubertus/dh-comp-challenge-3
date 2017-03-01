@@ -405,7 +405,6 @@ hr {
 .divider {
   align-items: center;
   background: #EDF2F6;
-  background: transparent;
   display: flex;
   height:50px;
   justify-content: center;
