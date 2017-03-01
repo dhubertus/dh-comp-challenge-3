@@ -13,4 +13,4 @@ Site must be designed with an index.html and index.css file. Site must be respon
 
 
 ####Produced Comp
-<img width="660" alt="provided comp 3" src="https://cloud.githubusercontent.com/assets/25044263/23475318/75a4eafe-fe74-11e6-84b5-68ab9bd92a1a.png">
+![produced comp 3](https://cloud.githubusercontent.com/assets/25044263/23475400/b74d88f8-fe74-11e6-8d9c-4cd214aecf18.png)
