@@ -31,12 +31,12 @@ body {
 }
 
 .identity-img {
-  background-image: url('images/headshot.jpg');
+  /*background-image: url('images/headshot.jpg');*/
   background-size: cover;
   height:80px;
   width: 80px;
   border-radius: 50%;
-  background-position-x: -7px;
+  /*background-position-x: -7px;*/
 
 }
 
@@ -62,27 +62,27 @@ body {
 }
 
 .side-nav-main-img-home {
-  background-image: url('images/home.png');
+  /*background: url('images/home.png');*/
   background-size: cover;
 }
 
 .side-nav-main-img-jobs {
-  background-image: url('images/briefcase.png');
+  /*background-image: url('images/briefcase.png');*/
   background-size: cover;
 }
 
 .side-nav-main-img-resume {
-  background-image: url('images/profile.png');
+  /*background-image: url('images/profile.png');*/
   background-size: cover;
 }
 
 .side-nav-main-img-tasks {
-  background-image: url('images/checklist.png');
+  /*background-image: url('images/checklist.png');*/
   background-size: cover;
 }
 
 .side-nav-main-img-calendar {
-  background-image: url('images/calendar.png');
+  /*background-image: url('images/calendar.png');*/
   background-size: cover;
 }
 
@@ -102,27 +102,27 @@ body {
 }
 
 .side-nav-admin-img-users {
-  background-image: url('images/home.png');
+  /*background-image: url('images/home.png');*/
   background-size: cover;
 }
 
 .side-nav-admin-img-locations {
-  background-image: url('images/briefcase.png');
+  /*background-image: url('images/briefcase.png');*/
   background-size: cover;
 }
 
 .side-nav-admin-img-workflows {
-  background-image: url('images/profile.png');
+  /*background-image: url('images/profile.png');*/
   background-size: cover;
 }
 
 .side-nav-admin-img-job-boards {
-  background-image: url('images/checklist.png');
+  /*background-image: url('images/checklist.png');*/
   background-size: cover;
 }
 
 .side-nav-admin-img-social {
-  background-image: url('images/calendar.png');
+  /*background-image: url('images/calendar.png');*/
   background-size: cover;
 }
 
@@ -169,6 +169,10 @@ body {
   font-size: 12px;
 }
 
+.full-scale-lable {
+  display: none;
+}
+
 /*Main Container Items*/
 .main-container {
   display: flex;
@@ -189,7 +193,7 @@ body {
 }
 
 .input-user-icon {
-  background-image: url('images/user-grey.png');
+  /*background-image: url('images/user-grey.png');*/
   background-size: cover;
   height:50px;
   width:20%;
@@ -356,7 +360,6 @@ body {
 }
 
 .job-description-edit {
-  background-image: url('images/pencil.png');
   background-size: cover;
   height:20px;
   width: 20px;
@@ -389,6 +392,8 @@ body {
 
 .social-link-container,
 .widget-resume-container {
+  display: flex;
+  flex-direction: column;
   height:auto;
   width: 90%;
   background: transparent;
@@ -641,6 +646,16 @@ hr {
     margin-left: 40px;
   }
 
+  .tabs-container h6 {
+    border: 3px solid transparent;
+  }
+
+  .tabs-container h6:hover{
+    margin: 0;
+    line-height: 62px;
+    border-bottom: 3px solid #10A3FA;
+  }
+
 }
 
 /*Ipad*/
@@ -671,6 +686,17 @@ hr {
     height:130px;
     width:130px;
   }
+
+  .tabs-container h6 {
+    border: 3px solid transparent;
+  }
+
+  .tabs-container h6:hover{
+    margin: 0;
+    line-height: 62px;
+    border-bottom: 3px solid #10A3FA;
+  }
+
 }
 
 /*Full browser window & Ipad Pro*/
@@ -810,6 +836,9 @@ body {
     background-color: #007530;
   }
 
+
+
+
 lable {
   display: flex;
   align-items:center;
@@ -831,7 +860,7 @@ lable {
 
 .tabs-container h6:hover{
   margin: 0;
-  line-height: 58px;
+  line-height: 62px;
   border-bottom: 3px solid #10A3FA;
 }
 
@@ -857,5 +886,32 @@ lable {
   width: 60%;
 }
 
+.search-container {
+  display:flex;
+  height:50px;
+  width:100%;
+  justify-content: center;
+}
+
+.search-input {
+  width:100%;
+}
+
+.input-user-icon {
+  background-size: cover;
+  height:48px;
+  width:48px;
+  display:flex;
+  border: 1px solid grey;
+}
+
+.input-user-icon:hover {
+  border: 1px solid #10A3FA;
+}
+
+.full-scale-lable {
+  display: block;
+  margin-top: 5px;
+}
 
 }
